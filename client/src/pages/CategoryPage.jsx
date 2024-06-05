@@ -9,8 +9,6 @@ import { setListings } from "../redux/state";
 import Loader from "../components/Loader";
 import ListingCard from "../components/ListingCard";
 
-
-
 const CategoryPage = () => {
 
     const [loading,setLoading]=useState(true);
@@ -78,8 +76,6 @@ const CategoryPage = () => {
 
     </>)
   )
-  
-    
   
 }
 
