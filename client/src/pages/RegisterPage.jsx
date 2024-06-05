@@ -14,8 +14,6 @@ function RegisterPage() {
     profileImage: null,
   });
 
-  
-
   const handleChange = (e) => {
     const { name, value, files } = e.target;
     setFormData((prevState) => ({
